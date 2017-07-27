@@ -1,0 +1,13 @@
+{
+  "name":"hui-hai",
+  "version":"0.0.1",
+  "description": "汇海学校门户前端",
+  "main":"server.js",
+  "author":"jiang",
+  "license":"MIT",
+  "dependencies":{
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2"
+  }
+}

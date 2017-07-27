@@ -1,0 +1,138 @@
+
+/*主体内容*/
+.g-bd{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.g-mn{
+    margin: auto;
+    width: 1170px;
+    height: auto;
+    overflow: auto;
+}
+.g-mnc{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    border:1px solid #efefef;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.g-lst{
+    float:left;
+    width: 1170px;
+    height: 600px;
+}
+.g-lst .g-ul{
+    float:left;
+    width: 1150px;
+    height: auto;
+    overflow: auto;
+    padding:10px;
+}
+.g-lst .g-ul > li{
+    float:left;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    line-height: 30px;
+}
+.g-lst .g-ul > li a{
+    color: #4a4a4a;
+}
+
+.g-lst .g-ul > li span{
+    float:right;
+}
+.g-lst .g-ul > li a:hover{
+    color:#077402;
+}
+.g-pn{
+    float:left;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+}
+.g-pn-lt{
+    margin: auto;
+    height: 30px;
+    text-align: center;
+}
+.g-pn-lt a{
+     background: #f5f5f5;
+     width: 25px;
+     padding: 5px 10px;
+     cursor: pointer;
+ }
+.g-pn-lt a:hover,.g-pn-lt a.active{
+   background-color: #077402;
+    color:#ffffff;
+}
+/*.g-pn-lt a:hover,.g-pn-lt a.active{
+    background-color: #077402;
+}*/
+/*detail*/
+.g-dl{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.g-dl-ct{
+    float:left;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    line-height: 25px;
+}
+.g-dl-ct h1{
+    text-align: center;
+    line-height: 50px;
+}
+.g-dl-ct h5{
+    text-align: center;
+    line-height: 30px;
+    color:#5f574f;
+    font-weight: 300;
+}
+.g-dl-ct h5 span{
+    margin: 0 5px;
+}
+.g-dl-ct-ct{
+    width:100%;
+    height: auto;
+    overflow: auto;
+}
+
+.g-dl-btn{
+    float:left;
+    width: 100%;
+    height: 30px;
+    margin: 30px 0;
+}
+.g-dl-btn div{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    float:left;
+    text-align: center;
+    line-height: 30px;
+    background-color: #077402;
+    padding:0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.g-dl-btn > div a{
+    color:#ffffff;
+}
+.g-dl-btn .btn-up{
+    float:left;
+}
+.g-dl-btn .btn-down{
+    float:right;
+}
+.g-dl-btn > div a:hover{
+    color:#000000;
+}

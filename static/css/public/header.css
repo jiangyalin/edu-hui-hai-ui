@@ -1,0 +1,112 @@
+/*头部*/
+.g-hd{
+    width: 100%;
+    min-width: 1170px;
+    height: auto;
+    background-color:#63ba28;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.g-hd .m-mn{
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 1170px;
+    height: auto;
+}
+.g-hd .m-logo{
+    display: block;
+    float: left;
+    height: 45px;
+}
+.g-hd .m-img{
+    display: block;
+    height: 100%;
+}
+
+/*搜索*/
+.g-hd .u-sch{
+    float: right;
+}
+.u-sch{
+    overflow: hidden;
+    margin: 7.5px 0;
+    width: 220px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.u-sch .u-ipt{
+    float: left;
+    padding-left: 8px;
+    width: 190px;
+    height: 100%;
+    border: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.u-sch .u-btn{
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+.u-sch .fa{
+    font-size: 14px;
+    color: #5f574f;
+}
+
+
+/*导航栏*/
+nav{
+    float:left;
+    width: 100%;
+    height: 30px;
+    background:#f2f1eb;
+    margin-bottom: 30px;
+}
+nav .m-nav-1{
+    margin: auto;
+    width: 1170px;
+    height: 30px;
+}
+nav .m-nav-1 li{
+    float:left;
+    padding:0 25px 0 0;
+    line-height: 30px;
+    font-size: 16px;
+}
+nav .m-nav-1 li a{
+    color:#2e2d29;
+    padding:5px 0;
+}
+
+nav .m-nav-1 li a:hover{
+    border-bottom: 2px solid #999999;
+    color: inherit
+}
+nav .m-nav-1 li.active a{
+    border-bottom: 2px solid #63ba28;
+}
+
+
+/*底部*/
+.gh-ft {
+    float: left;
+    width: 100%;
+    height: 120px;
+    background: #63ba28;
+}
+.gh-ft-c{
+    margin: auto;
+    width: 1170px;
+    height: 100px;
+    padding:10px 0;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
